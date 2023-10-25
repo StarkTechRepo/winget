@@ -5,7 +5,7 @@ Simplifica la administración de paquetes de aplicaciones en Windows con esta po
 ## Características Destacadas
 
 - **Instalación sin Esfuerzo:** Configura rápidamente WinGet con un solo clic, sin necesidad de descargas manuales.
-  - Comando: `winget install win-get`
+  - Comando: `powershell -Command "Install-PackageProvider -Name winget -Force"`
 
 - **Actualización de Aplicaciones:** Mantén todas tus aplicaciones actualizadas con facilidad. Simplemente ingresa el nombre de la aplicación y deja que esta herramienta se encargue del resto.
   - Comando de actualización de una aplicación específica: `winget upgrade <nombre-de-la-aplicación>`
